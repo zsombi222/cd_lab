@@ -41,3 +41,4 @@ jobs:
           git add values.yaml
           git commit -m "Update values.yaml"
           git push https://${{ secrets.ACCESS_TOKEN }}@github.com/zsombi222/cd_lab.git
+      
